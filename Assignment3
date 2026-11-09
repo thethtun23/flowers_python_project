@@ -1,0 +1,56 @@
+class Rose:
+  def meaning(self):
+  print("Queens of the flower world.")
+
+  def symbolism(self):
+  print("Classic beauty and Romance")
+  print("—"*45)
+
+class Tulip:
+  def meaning(self):
+  print("Springtime stars")
+
+  def symbolism(self):
+  print("Rebirth and New beginnings")
+  print("—"*45)
+
+class Carnation:
+  def meaning(self):
+  print("Long-lasting blooms and sweet.")
+
+  def symbolism(self):
+  print("Love and Deep fascination")
+  print("—"*45)
+
+class Sunflower:
+  def meaning(self):
+  print("Adoration, Loyalty, Happiness and Warmth.")
+
+  def symbolism(self):
+  print("Energy and Love")
+  print("—"*45)
+
+class Orchid:
+  def meaning(self):
+  print("Exotic beauty, Mysterious and Diversity.")
+
+  def symbolism(self):
+  print("Love, Elegance, Refinement, Luxury and Strength.")
+  print("—"*45)
+
+def flower_info(flowers):
+  flowers.meaning()
+  flowers.symbolism()
+
+my_rose = Rose()
+my_tulip = Tulip()
+my_carnation = Carnation()
+my_sunflower = Sunflower()
+my_orchid = Orchid()
+
+flower_info(my_rose)
+flower_info(my_tulip)
+flower_info(my_carnation)
+flower_info(my_sunflower)
+flower_info(my_orchid)
+
